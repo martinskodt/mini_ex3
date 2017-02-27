@@ -19,7 +19,7 @@ function draw() {
  text("L O A D I N G",width/4,50)
  
 //farve1 = map(streg1.omgang,1,350,255,0) // mappe farverne
-//farve2 = map(streg1.omgang,1,100,0,255)
+farve2 = map(streg1.omgang,1,100,0,255)
 farve3 = map(streg1.omgang,100,350,255,0)
  fill(farve2,farve1,farve3,farve1)
  
